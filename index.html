@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireFly</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1 class="header font-effect-fire">FireFly</h1> 
+        <div class="header-img" >
+            <!-- <img src="./assets/beej-patakha1.jpg" alt="header-image"/> -->
+            <div class="tagline">
+                <h2>The choice is yours.</br>
+                    Because they don't have one.
+                </h2>
+                <button class="tag-btn">QUICK VIEW</button>
+            </div>           
+        </div>
+              
+    </header>
+
+    <section class="about">
+        <h3>About</h3>
+        <div class="about-content">
+            <img src="./assets/style1.webp"/>
+            <div>
+                <p>Our products are crafted exclusively from the dreams and screams of young kids who wanted to show their mastery in their
+                    chosen fields, but were directed towards a factory for daily wages. Each cracker bursts brighter than their lost smiles, and can
+                    be heard louder than their cries for miles. Buy them, burst them, brag about them.
+                </p>
+                <h4>The choice is yours. Because they don't have one.</h4>
+            </div>
+            <img src="./assets/style1.webp"/>
+        </div>      
+    </section>
+    <hr class="new3">
+    
+    <section class="products">
+        <h3>Our products</h3>
+        <div class="card-container">
+            <div class="card">
+                <img src="./assets/Beej-Patakha (2).jpg" alt="Card Image">
+                <div class="card-content">
+                    <h4>Raju rassibomb</h4>
+                    <button id="card-btn1" class="card-btn">QUICK VIEW</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Beej-Patakha (2).jpg" alt="Card Image">
+                <div class="card-content">
+                    <h4>Raju rassibomb</h4>
+                    <button id="card-btn2" class="card-btn">QUICK VIEW</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Beej-Patakha (2).jpg" alt="Card Image">
+                <div class="card-content">
+                    <h4>Raju rassibomb</h4>
+                    <button id="card-btn3" class="card-btn">QUICK VIEW</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Beej-Patakha (2).jpg" alt="Card Image">
+                <div class="card-content">
+                    <h4>Raju rassibomb</h4>
+                    <button id="card-btn4" class="card-btn">QUICK VIEW</button>
+                </div>
+            </div>
+
+            <!-- -----------Modal------------ -->
+            <div class="modal" id="myModal">
+                <div class="modal-content">
+                    
+                    <div class="images-container">
+                        <div class="main-img">
+                            <img src="./assets/fireworks1.avif"/>
+                        </div>
+                        <div class="child-images">
+                            <img id="child-img1" class="child-img" src="./assets/Beej-Patakha (2).jpg" rel="card img"/>
+                            <img id="child-img2" class="child-img" src="./assets/fireworks1.avif" rel="card img"/>
+                            <img id="child-img3" class="child-img" src="./assets/Beej-Patakha (2).jpg" rel="card img"/>
+                            <img id="child-img4" class="child-img" src="./assets/fireworks1.avif" rel="card img"/>
+                        </div>
+                        
+        
+                    </div>
+                    <div>    
+                        <div>
+                            <h2>Raju Rassibomb</h2>
+                            <h3>MRP: <span>$5</span></h3>
+                            
+                        </div><hr class="new2">
+                        <div>
+                            <h4>Product Description:</h4>
+                            <p>This product packs an extra punch, thanks to the literal blood, </p>
+                        </div><hr class="new2">
+                        <div>
+                            <h4>Product Contents:</h4>
+                            <p><i class="fa-solid fa-fire"></i> 10 hand-hurting pieces of rassi bombs</p>
+                            <p><i class="fa-solid fa-fire"></i> Jilled with great pain </p>
+                            <p><i class="fa-solid fa-fire"></i> Raju's hopes</p>
+                        </div><hr class="new2">
+                        <div>
+                            <h4>Shipping Time:</h4>
+                            <p>Before raju understand that his dreams do not matter.</p>
+                        </div>
+                        <div>
+                            <button class="modal-btn">Choose Now</button>
+                        </div>   
+                        
+                    </div>
+                    <span class="close" id="closeModal">&times;</span> 
+                </div>
+            </div>
+        
+            
+        </div>
+    </section>
+    <hr class="new1">
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Follow us on</p>
+            <ul class="footer-links">
+                <li>
+                    <a href="#instagram"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+                </li>
+                <li>
+                    <a href="#facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                </li>
+                <li>
+                    <a href="#twitter"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+                </li>
+                <li>
+                    <a href="#youtube"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </li>
+                <li>
+                    <a href="#linkedin"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                </li>
+            </ul>               
+        </div>
+    </footer>
+    <hr class="new1">
+
+    <script src="script.js"></script>
+</body>
+</html>
